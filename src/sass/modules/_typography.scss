@@ -11,14 +11,13 @@ html {
 
 
 /****************
-  Fonts Import
+Fonts Import
 *****************/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap');
 h1,
 .h1 {
-    @include media-breackpoint-up ('md') {
+    @include media-breakpoint-up('md') {
         font-size: $font-size-base * 3;
-        ;
     }
 }
