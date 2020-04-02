@@ -8,6 +8,16 @@
 }
 
 .page-hero {
+    position: relative;
+    &::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: rgba($color: #000000, $alpha: 0.2);
+    }
     .page-hero-content {
         min-height: 336px;
         h1,

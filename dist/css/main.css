@@ -9915,6 +9915,18 @@ Fonts Import
   }
 }
 
+.page-hero {
+  position: relative;
+}
+.page-hero::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 .page-hero .page-hero-content {
   min-height: 336px;
 }
