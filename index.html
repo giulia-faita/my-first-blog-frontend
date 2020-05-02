@@ -13,71 +13,37 @@
     <title>Homepage</title>
 </head>
 
+
 <body>
-
-    <!-- <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-          <a class="navbar-brand" href="#">Logo</a>
-  
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>  
-    </header> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/vans-logo.png" alt="vans logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main class="">
+
+    <main>
         <!-- testata -->
-        <section class="section bg-secondary page-hero">
+        <section class="section section-y-padding bg-secondary page-hero" style="background-image: url('./assets/img/scarpe-jeans.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                        <div class="text-center page-hero-content d-flex justify-content-center align-items-center">
+                        <div class="page-hero-content d-flex justify-content-center align-items-center">
                             <div class="text-center">
-                                <h1>Lorem ipsum dolor is amet</h1>
+                                <h1>Make something for good</h1>
                                 <p>La nuova collezione è arrivata</p>
                                 <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
                             </div>
@@ -86,82 +52,130 @@
                 </div>
             </div>
         </section>
-        <!-- chi siamo -->
-        <section>
+
+        <!-- sezione chi siamo -->
+        <section class="section section-who-we-are">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="text">
-                            <H2 class="text-uppercase text-primary">chi siamo</H2>
-                            <P>Si sine dubio praeclara sunt, fecerint, virtutem iis per se esse albam, dulce. Certe, inquam, pertinax non fuisse torquem detraxit hosti et quidem se esse admonere. Et quidem se esse vult, summumque malum dolorem, idque instituit
-                                docere sic: omne.</P>
-                            <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
-                        </div>
+                    <div class="col-12 col-md-6 section-y-padding">
+                        <h2 class="text-primary text-uppercase">chi siamo</h2>
+                        <p>Si sine dubio praeclara sunt, fecerint, virtutem iis per se esse albam, dulce. Certe, inquam, pertinax non fuisse torquem detraxit hosti et quidem se esse admonere. Et quidem se esse vult, summumque malum dolorem, idque instituit
+                            docere sic: omne.</p>
+                        <a href="#" class="btn btn-primary text-uppercase btn-lg rounded-0">Continua</a>
                     </div>
-
-                    <div class="col-12 d-none d-md-block col-lg-6">
-                        <div class="img-maglietta">
-                            <img src="img/img-maglietta.png">
-                        </div>
-
+                    <div class="col-12 col-md-6 d-none d-md-block">
+                        <img class="img-who-we-are lazy d-none d-md-block" src="assets/img/placeholder.jpg" data-src="./assets/img/img-shirt.png" data-srcset="assets/img/img-shirt@3x.png 1710w,
+                                assets/img/img-shirt@2x.png 1140w,
+                                assets/img/img-shirt.png 570w" sizes="100vw" alt="maglietta vans">
                     </div>
                 </div>
             </div>
         </section>
-        <!-- prodotti -->
-        <section class="bg-light">
+
+
+        <!-- sezione categorie -->
+        <section class="section section-categories bg-light section-y-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
-                        <div class="text-uppercase text-primary">
-                            <H2>I nostri prodotti</H2>
-                        </div>
-                    </div>
-
                     <div class="col-12 col-lg-6">
-                        <div class="bg-secondary mt-5">
-                            <h2 class="text-uppercase text-white">Uomo</h2>
-                            <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
-                        </div>
+                        <h2 class="text-primary text-uppercase">I nostri prodotti</h2>
                     </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="bg-secondary mt-5">
-                            <h2 class="text-uppercase text-white">Donna</h2>
-                            <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 my-3">
+                        <article class="bg-dark tease-category">
+                            <div class="object-fit-wrap position-absolute">
+                                <img class="lazy" src="assets/img/scarpe-uomo.jpg" data-src="assets/img/scarpe-uomo.jpg" alt="vans uomo" width="100%" height="100%">
+                            </div>
+                            <div class="tease-content p-3 position-relative d-flex h-100 align-items-end">
+                                <div>
+                                    <h2 class="text-white font-weight-bold text-uppercase mb-2">Uomo</h2>
+                                    <a href="#" class="btn btn-primary text-uppercase btn-lg rounded-0">Continua</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="bg-secondary mt-5">
-                            <h2 class="text-uppercase text-white">Bambino</h2>
-                            <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
-                        </div>
+                    <div class="col-12 col-md-6 my-3 d-none d-lg-block">
+                        <article class="bg-dark tease-category">
+                            <div class="object-fit-wrap position-absolute">
+                                <img class="lazy" src="assets/img/scarpe-volano.jpg" data-src="assets/img/scarpe-volano.jpg" alt="vans donna" width="100%" height="100%">
+                            </div>
+                            <div class="tease-content p-3 position-relative d-flex h-100 align-items-end">
+                                <div>
+                                    <h2 class="text-white font-weight-bold text-uppercase mb-2">Donna</h2>
+                                    <a href="#" class="btn btn-primary text-uppercase btn-lg rounded-0">Continua</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="bg-secondary mt-5">
-                            <h2 class="text-uppercase text-white">Accessori</h2>
-                            <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0">Continua</a>
-                        </div>
+                    <div class="col-12 col-md-6 my-3">
+                        <article class="bg-dark tease-category">
+                            <div class="object-fit-wrap position-absolute">
+                                <img class="lazy" src="assets/img/scarpe-bimbo.jpg" data-src="assets/img/scarpe-bimbo.jpg" alt="vans bambino" width="100%" height="100%">
+                            </div>
+                            <div class="tease-content p-3 position-relative d-flex h-100 align-items-end">
+                                <div>
+                                    <h2 class="text-white font-weight-bold text-uppercase mb-2">Bambino</h2>
+                                    <a href="#" class="btn btn-primary text-uppercase btn-lg rounded-0">Continua</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-
+                    <div class="col-12 col-md-6 my-3">
+                        <article class="bg-dark tease-category">
+                            <div class="object-fit-wrap position-absolute">
+                                <img class="lazy" src="assets/img/scarpe-skate.jpg" data-src="assets/img/scarpe-skate.jpg" alt="vans accessori" width="100%" height="100%">
+                            </div>
+                            <div class="tease-content p-3 position-relative d-flex h-100 align-items-end">
+                                <div>
+                                    <h2 class="text-white font-weight-bold text-uppercase mb-2">Accessori</h2>
+                                    <a href="#" class="btn btn-primary text-uppercase btn-lg rounded-0">Continua</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
+
+
+
         <!-- blog -->
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12 mt-5 mb-5 col-lg-12">
                         <div class="text-uppercase text-primary">
                             <H2>Blog</H2>
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3">
-
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="blog-img">
+                            <div class="objectfit-wrap"><img class="lazy" src="assets/img/scarpe-skate.jpg" data-src="assets/img/scarpe-skate.jpg" alt="vans accessori" width="100%" height="100%"></div> CATEGORIA 1 02/02/2020 <br><b>Nulla efficitur urna quis urna gravida, et vulputate nulla.</b>
+                        </div>
                     </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="blog-img">
+                            <div class="objectfit-wrap"><img class="lazy" src="assets/img/scarpe-skate.jpg" data-src="assets/img/scarpe-skate.jpg" alt="vans accessori" width="100%" height="100%"></div> CATEGORIA 1 02/02/2020 <br><b>Nulla efficitur urna quis urna gravida, et vulputate nulla.</b>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="blog-img">
+                            <div class="objectfit-wrap"><img class="lazy" src="assets/img/scarpe-skate.jpg" data-src="assets/img/scarpe-skate.jpg" alt="vans accessori" width="100%" height="100%"></div> CATEGORIA 1 02/02/2020 <br><b>Nulla efficitur urna quis urna gravida, et vulputate nulla.</b>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="blog-img">
+                            <div class="objectfit-wrap"><img class="lazy" src="assets/img/scarpe-skate.jpg" data-src="assets/img/scarpe-skate.jpg" alt="vans accessori" width="100%" height="100%"></div> CATEGORIA 1 02/02/2020 <br><b>Nulla efficitur urna quis urna gravida, et vulputate nulla.</b>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-0 mt-5">Continua</a>
+
                 </div>
             </div>
         </section>
@@ -179,6 +193,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <!-- Main JS -->
+    <script src="./dist/js/main.js"></script>
 </body>
 
 </html>
